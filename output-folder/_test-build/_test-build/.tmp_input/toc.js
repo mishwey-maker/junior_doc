@@ -1,0 +1,1 @@
+window.__DATA__.data.toc = {"title":"junior","href":"_test-build/.tmp_input/index.html","navigation":{"header":{"rightItems":[{"type":"controls"}]}},"items":[{"name":"Приветствие","href":"_test-build/.tmp_input/index.html","id":"1b61dc99-252f-4939-8970-1b8ca5ee03f8"}],"path":"_test-build/.tmp_input/toc.yaml","id":"2efaab6f-1b27-431d-a33a-dbcf154b5b13"};

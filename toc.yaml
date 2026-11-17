@@ -1,0 +1,339 @@
+title: junior
+href: index.md
+navigation:
+  logo:
+    url: 'https://diplodoc.com'
+    urlTitle: "Anonymous Juniors Club"
+    dark:
+      icon: ./logo/logo.png
+      text: 'Клуб анонимных джунов'
+    light:
+      icon: ./logo/logo.png
+      text: 'Клуб анонимных джунов'
+  header:
+    rightItems:
+      - type: controls
+items:
+  - name: Приветствие
+    href: index.md
+
+  - name: Курсы
+    items:
+      - name: Список курсов
+        href: ./Course/index.md
+      - name: Поколение Python (курс для начинающих)
+        href: ./Course/python.md
+    
+  - name: Полезные материалы
+    items:
+      - name: Макрос для сбора сокращений в документе
+        href: ./useful/Macword.md
+      - name: Инструкция по развертыванию MkDocs
+        href: ./useful/Begin.md
+
+  - name: Карта техписа
+    items:
+      - name: Базовые инструменты и письмо
+        items:
+          - name: Markdown
+            items:
+              - name: Junior
+                href: ./Roadmap/base/md/junior.md
+              - name: Middle
+                href: ./Roadmap/base/md/middle.md
+              - name: Senior
+                href: ./Roadmap/base/md/senior.md
+          - name: Git/GitHub
+            items:
+              - name: Junior
+                href: ./Roadmap/base/git/junior.md
+              - name: Middle
+                href: ./Roadmap/base/git/middle.md
+              - name: Senior
+                href: ./Roadmap/base/git/senior.md
+          - name: Редакторы(IDE)
+            items:
+              - name: Junior
+                href: ./Roadmap/base/ide/junior.md
+              - name: Middle
+                href: ./Roadmap/base/ide/middle.md
+              - name: Senior
+                href: ./Roadmap/base/ide/senior.md
+          - name: Стиль и тон
+            items:
+              - name: Junior
+                href: ./Roadmap/base/style/junior.md
+              - name: Middle
+                href: ./Roadmap/base/style/middle.md
+              - name: Senior
+                href: ./Roadmap/base/style/senior.md
+          - name: Структура текста
+            items:
+              - name: Junior
+                href: ./Roadmap/base/text/junior.md
+              - name: Middle
+                href: ./Roadmap/base/text/middle.md
+              - name: Senior
+                href: ./Roadmap/base/text/senior.md
+          - name: Английский
+            items:
+              - name: Junior
+                href: ./Roadmap/base/english/junior.md
+              - name: Middle
+                href: ./Roadmap/base/english/middle.md
+              - name: Senior
+                href: ./Roadmap/base/english/senior.md
+      - name: Типы документации и методология
+        items:
+          - name: How-to/Tutorial
+            items:
+              - name: Junior
+                href: ./Roadmap/metod/tutorial/junior.md
+              - name: Middle
+                href: ./Roadmap/metod/tutorial/middle.md
+              - name: Senior
+                href: ./Roadmap/metod/tutorial/senior.md
+          - name: Reference
+            items:
+              - name: Junior
+                href: ./Roadmap/metod/reference/junior.md
+              - name: Middle
+                href: ./Roadmap/metod/reference/middle.md
+              - name: Senior
+                href: ./Roadmap/metod/reference/senior.md
+          - name: Explanation
+            items:
+              - name: Junior
+                href: ./Roadmap/metod/explanation/junior.md
+              - name: Middle
+                href: ./Roadmap/metod/explanation/middle.md
+              - name: Senior
+                href: ./Roadmap/metod/explanation/senior.md
+          - name: Release notes
+            items:
+              - name: Junior
+                href: ./Roadmap/metod/release/junior.md
+              - name: Middle
+                href: ./Roadmap/metod/release/middle.md
+              - name: Senior
+                href: ./Roadmap/metod/release/senior.md
+          - name: Troubleshooting
+            items:
+              - name: Junior
+                href: ./Roadmap/metod/troubleshooting/junior.md
+              - name: Middle
+                href: ./Roadmap/metod/troubleshooting/middle.md
+              - name: Senior
+                href: ./Roadmap/metod/troubleshooting/senior.md
+          - name: Аудиторный анализ
+            items:
+              - name: Junior
+                href: ./Roadmap/metod/audit/junior.md
+              - name: Middle
+                href: ./Roadmap/metod/audit/middle.md
+              - name: Senior
+                href: ./Roadmap/metod/audit/senior.md
+      - name: API-документация и техническая глубина
+        items:
+          - name: REST / HTTP
+            items:
+              - name: Junior
+                href: ./Roadmap/api/rest/junior.md
+              - name: Middle
+                href: ./Roadmap/api/rest/middle.md
+              - name: Senior
+                href: ./Roadmap/api/rest/senior.md
+          - name: JSON / XML
+            items:
+              - name: Junior
+                href: ./Roadmap/api/json/junior.md
+              - name: Middle
+                href: ./Roadmap/api/json/middle.md
+              - name: Senior
+                href: ./Roadmap/api/json/senior.md      
+          - name: OpenAPI / Swagger
+            items:
+              - name: Junior
+                href: ./Roadmap/api/openapi/junior.md
+              - name: Middle
+                href: ./Roadmap/api/openapi/middle.md
+              - name: Senior
+                href: ./Roadmap/api/openapi/senior.md      
+          - name: Postman / тестирование API
+            items:
+              - name: Junior
+                href: ./Roadmap/api/postman/junior.md
+              - name: Middle
+                href: ./Roadmap/api/postman/middle.md
+              - name: Senior
+                href: ./Roadmap/api/postman/senior.md    
+          - name: Понимание кода
+            items:
+              - name: Junior
+                href: ./Roadmap/api/code/junior.md
+              - name: Middle
+                href: ./Roadmap/api/code/middle.md
+              - name: Senior
+                href: ./Roadmap/api/code/senior.md 
+          - name: Документация SDK
+            items:
+              - name: Junior
+                href: ./Roadmap/api/sdk/junior.md
+              - name: Middle
+                href: ./Roadmap/api/sdk/middle.md
+              - name: Senior
+                href: ./Roadmap/api/sdk/senior.md 
+      - name: Docs-as-code и автоматизация
+        items:
+          - name: Статический генератор
+            items:
+              - name: Junior
+                href: ./Roadmap/docascode/ssg/junior.md
+              - name: Middle
+                href: ./Roadmap/docascode/ssg/middle.md
+              - name: Senior
+                href: ./Roadmap/docascode/ssg/senior.md
+          - name: CI/CD для документации
+            items:
+              - name: Junior
+                href: ./Roadmap/docascode/cicd/junior.md
+              - name: Middle
+                href: ./Roadmap/docascode/cicd/middle.md
+              - name: Senior
+                href: ./Roadmap/docascode/cicd/senior.md
+          - name: Линтеры и валидация
+            items:
+              - name: Junior
+                href: ./Roadmap/docascode/liter/junior.md
+              - name: Middle
+                href: ./Roadmap/docascode/liter/middle.md
+              - name: Senior
+                href: ./Roadmap/docascode/liter/senior.md
+          - name: Версионирование документации
+            items:
+              - name: Junior
+                href: ./Roadmap/docascode/version/junior.md
+              - name: Middle
+                href: ./Roadmap/docascode/version/middle.md
+              - name: Senior
+                href: ./Roadmap/docascode/version/senior.md
+          - name: Поиск и метаданные
+            items:
+              - name: Junior
+                href: ./Roadmap/docascode/search/junior.md
+              - name: Middle
+                href: ./Roadmap/docascode/search/middle.md
+              - name: Senior
+                href: ./Roadmap/docascode/search/senior.md
+          - name: Автоматизация генерации
+            items:
+              - name: Junior
+                href: ./Roadmap/docascode/auto/junior.md
+              - name: Middle
+                href: ./Roadmap/docascode/auto/middle.md
+              - name: Senior
+                href: ./Roadmap/docascode/auto/senior.md
+      - name: Коммуникация и работа с экспертами
+        items:
+          - name: Интервью с SME
+            items:
+              - name: Junior
+                href: ./Roadmap/comunication/sme/junior.md
+              - name: Middle
+                href: ./Roadmap/comunication/sme/middle.md
+              - name: Senior
+                href: ./Roadmap/comunication/sme/senior.md
+          - name: Обратная связь
+            items:
+              - name: Junior
+                href: ./Roadmap/comunication/stp/junior.md
+              - name: Middle
+                href: ./Roadmap/comunication/stp/middle.md
+              - name: Senior
+                href: ./Roadmap/comunication/stp/senior.md
+          - name: Презентация работы
+            items:
+              - name: Junior
+                href: ./Roadmap/comunication/press/junior.md
+              - name: Middle
+                href: ./Roadmap/comunication/press/middle.md
+              - name: Senior
+                href: ./Roadmap/comunication/press/senior.md
+          - name: Кросс-функциональная работа
+            items:
+              - name: Junior
+                href: ./Roadmap/comunication/press/junior.md
+              - name: Middle
+                href: ./Roadmap/comunication/press/middle.md
+              - name: Senior
+                href: ./Roadmap/comunication/press/senior.md
+      - name: Метрики, стратегия и лидерство
+        items:
+          - name: Метрики документации
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/metricdocs/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/metricdocs/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/metricdocs/senior.md
+          - name: Контент-аудит
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/auditdoc/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/auditdoc/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/auditdoc/senior.md
+          - name: Контент-стратегия
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/strateg/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/strateg/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/strateg/senior.md
+          - name: Менторство
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/mentor/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/mentor/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/mentor/senior.md
+          - name: Найм и оценка
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/ball/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/ball/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/ball/senior.md
+          - name: Влияние на продукт
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/status/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/status/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/status/senior.md
+          - name: Бюджет и вендоры
+            items:
+              - name: Junior
+                href: ./Roadmap/metric/cashe/junior.md
+              - name: Middle
+                href: ./Roadmap/metric/cashe/middle.md
+              - name: Senior
+                href: ./Roadmap/metric/cashe/senior.md
+
+
+  - name: Что почитать
+    items:
+      - name: Амир Вафин "Абсолютная дисциплина"
+        href: ./WhatRead/amir.md
+      - name: Кэл Ньюпорт Хватит мечтать. Займись делом. Почему важнее хорошо работать, чем найти хорошую работу.
+        href: ./WhatRead/dream.md
+      - name: Бионический шрифт
+        href: ./WhatRead/bio.md
+  
+
